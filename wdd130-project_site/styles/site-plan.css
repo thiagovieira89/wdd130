@@ -41,8 +41,8 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: "Open Sans";
+  color: #123458;
 }
 h2 {
   text-align: center;
@@ -50,21 +50,21 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: #123458;
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: #f5f5f5;
+  background-color: #123458;
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: #f5f5f5;
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: "Open Sans";
+  color: #123458;
   padding: 1em;
 }
 .colors {
@@ -82,25 +82,26 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #123458 ;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #1d70c9;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #f5f5f5;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #010103;
+  color:#f5f5f5;
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: #010103;
+  color: #010103;
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #123458;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +119,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #123458;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #f5f5f5;
+  background-color: #010103;
 }
 
 .sitemap {
