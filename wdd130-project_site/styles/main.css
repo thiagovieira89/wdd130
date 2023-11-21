@@ -1,0 +1,227 @@
+.logo{
+    width: 120px;
+    margin-bottom: -70px;
+    margin-left: 20px;
+    
+}
+header{
+    background-color: #123458;
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 1600px;
+}
+nav a{
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color: #f5f5f5;
+    margin: auto;
+    font-size: 1.2em;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+    
+}
+main{
+    background-color: #123458;
+    width: 1600px;
+}
+.brand_cars {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+}
+.brand_cars img{
+    width: 1600px;
+    height: 300px;
+}
+#aboutpage {
+    display: flex;
+}
+
+.porpose, .photo1 {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px 20px ;
+}
+
+.photo1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.porpose{
+    max-width: 1600px;
+    font-size: 1.5em;
+    text-align: justify;
+
+}
+.porpose h2, p{
+    color: #f5f5f5;
+}
+
+.audience{
+    max-width: 1600px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.audience h2, p{
+    color: #f5f5f5;
+}
+.photo2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.slogan h2{
+    width: 1600px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 2.5em;
+}
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.topics{
+    grid-column: 1/2;
+    margin: 30px 30px;
+    margin-left: 50px;
+    color: #f5f5f5;
+}
+.topics li{
+    list-style: disc;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+h1 {
+    text-align: center;
+    color: #f5f5f5; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; 
+    color: #f5f5f5;
+}
+.appointment-box {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer{
+    background-color: #123458;
+    color: white;
+    max-height: 130px;
+    width: 1500px;
+    margin-top: 10px;
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+     
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+footer a:hover{
+    color: white;
+}
+footer p {
+    grid-column: 1/2; 
+    font-size: 14px;
+    margin: 0;
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}   
+.links p a{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 18px;
+  
+}
+.links a:hover{
+    background-color:#1d70c9;
+}
+footer p a:hover {
+    text-decoration: underline;
+    
+}
+.address {
+   grid-template-columns: 1fr 1fr 1f;
+   grid-template-rows: 1fr 1fr 1fr; 
+}
+.address p{
+    width: 500px;
+    max-width: max-content;
+    font-size: 20px;
+    
+}
+.social{
+    grid-column: 4/5;   
+}  

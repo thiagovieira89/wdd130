@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id = "content">
+        <header>
+            <a id="logo_link" href= "index.html">
+                <img class="logo" src="images/logo.jpg" alt="thiagoCar">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About Us</a>
+                <!--<a href="contactus.html">Contact Us</a>-->
+            </nav>
+        </header>
+        <main>
+            <div class="brand_cars">
+                <img src="images/brand_cars.png" alt="brand_cars">
+            </div>
+            <div class="slogan">
+                <h2>How can I be a solution for you today?</h2>
+            </div>
+            <div id="home">
+                <div class="topics">
+                    <li>Evaluation to buy a car</li>
+                    <li>Electrical Systems</li>
+                    <li>Motor Systems</li>
+                    <li>Injection Systems</li>
+                    <li>Breaks Systems</li>
+                    <li>Suspension</li>
+                    <li>Parts</li>
+                </div>
+                <div id="schedule"></div>
+                <div class="appointment-box">
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                            <li>
+                                <h2>Schedule your service here!</h2>
+                            </li>
+                            <li>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name" required />
+                            </li>
+                            <li>
+                                <label for="mail">Email:</label>
+                                <input type="email" id="mail" name="user_email" required />
+                            </li>
+                            <li>
+                                <label for="msg">Message:</label>
+                                <textarea id="msg" name="user_message" required></textarea>
+                            </li>
+                            <li class="button">
+                                <button type="submit">Send your message</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="links">
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="services.html">Services</a></p>
+                <p><a href="about.html">About Us</a></p>
+            </div>
+            
+            <div class="address">   
+                <p>Street Arnoldo Magalhães 233, Casa Amarela - Recife - PE</p>
+                <p>Phone: (81)98161-9595</p>
+                
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target ="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://www.instagram.com/thiagocar_service/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
